@@ -1,0 +1,81 @@
+let bhaskaras = function(a,b,c){
+
+let primerParte = (b * b) * (-4) * a * c;
+// lo de arriba es universal
+
+if (primerParte < 0) {
+    primerParte = primerParte * (-1);}
+
+let raiz = Math.sqrt(primerParte);
+
+let aa = 2 * a;
+
+let caso1 = b + raiz;
+
+let caso2 = b - raiz;
+
+caso1 = caso1 / aa;
+
+caso2 = caso2 / aa;
+
+return(console.log(caso1 + "," + caso2))
+}
+
+bhaskaras (2,2,2)
+
+
+
+
+//versão simples, ou errada
+
+
+let bhaskaras = function(a,b,c){
+
+let aa;
+
+let caso1;
+
+let caso2;
+
+let raiz;
+
+let primerParte = (b * b) * (-4) * a * c;
+// lo de arriba es universal
+
+if (primerParte < 0) {
+
+aa = a * 2;
+
+b = b / 2;
+
+primerParte = primerParte * (-1);
+
+raiz = Math.sqrt(primerParte);
+
+raiz = raiz / aa;
+
+varNeg = raiz.toString() + 'i';
+
+varNeg1 = b.toString();
+
+caso1 = varNeg1 + " + " + varNeg;
+
+caso2 = varNeg1 + " - " + varNeg;}
+
+else {raiz = Math.sqrt(primerParte);
+
+aa = 2 * a;
+
+caso1 = b + raiz;
+
+caso2 = b - raiz;
+
+caso1 = caso1 / aa;
+
+caso2 = caso2 / aa;}
+
+return(console.log(caso1 + "," + caso2))}
+
+bhaskaras (2,2,2)
+
+//correcto

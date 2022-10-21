@@ -1,0 +1,38 @@
+
+
+#fotoNav{
+    width: 150px;
+}
+
+h1{ color: rgb(69, 154, 106);
+    text-align: center;
+}
+
+#containerFotos{
+    width: 700px;
+    height: 300px;
+}
+
+#divConteudo{
+    text-align: center;
+    font-size: 18px;
+    padding: 150px 40px 40px 40px;
+    height: 500px;
+}
+
+#divCarrossel {
+    height: 550px;
+}
+
+#divFooter{
+    margin: 50px 0px 0px 0px;
+}
+#insta{
+    width: 15px;
+}
+#footerInsta{
+    font-size: 12px;
+}
+#logo{
+    width: 150px;
+}
